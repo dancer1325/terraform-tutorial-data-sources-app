@@ -2,16 +2,17 @@
 # SPDX-License-Identifier: MPL-2.0
 
 terraform {
-  cloud {
+  // Uncomment this block to use Terraform Cloud for this tutorial
+  /*cloud {
     workspaces {
       name = "learn-terraform-data-sources-app"
     }
-  }
+  }*/
 
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 4.45.0"
+      version = "~> 5.0"
     }
     random = {
       source  = "hashicorp/random"
