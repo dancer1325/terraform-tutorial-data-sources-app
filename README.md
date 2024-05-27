@@ -29,6 +29,7 @@ Follow along [with this Hashicorp tutorial](https://developer.hashicorp.com/terr
       * Solution: Uncomment terraform.cloud & Create HCP account TODO:
 * `curl $(terraform output -raw lb_url)`
   * Check that you can access to elastic load balancer
+* `terraform destroy`
 
 ## Notes
 * [terraform_remote_state](https://developer.hashicorp.com/terraform/language/state/remote-state-data)
